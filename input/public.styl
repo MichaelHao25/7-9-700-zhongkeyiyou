@@ -1,0 +1,1917 @@
+﻿@import 'reset.css'
+
+/* @import "function.css"; */
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";  
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+.w
+	margin 0 auto
+	max-width 1200px
+	width 100%
+
+body
+	font-size 100%
+
+.bgfafafa
+	background #fafafa
+
+input::placeholder
+	font-family 'microsoft yahei'
+
+.header
+	.welcome
+		background #f5f5f5
+		color #000000
+		font-size 12px
+		line-height 30px
+
+		a
+			margin 0 5px
+
+	.ads
+		padding-top 10px
+
+		img
+			display block
+			width 100%
+
+	.brand
+		width 240px
+		height 146px
+		background url('') center center no-repeat
+		box-shadow 3px 0px 10px rgba(#464646, 0.6), -3px 0px 10px rgba(#464646, 0.6)
+
+	.pl25
+		padding-left 25px
+
+	.search-box
+		padding-top 30px
+
+		input
+			box-sizing border-box
+			padding-left 20px
+			width 440px
+			height 50px
+			outline none
+			border none
+			border-radius 0
+			background #eaeaea
+			font-size 12px
+
+			&::placeholder
+				color #8c8b8b
+				font-size 12px
+
+		a
+			width 130px
+			height 50px
+			background #e70404
+			color #ffffff
+			text-align center
+			font-size 25px
+			line-height 50px
+
+			span
+				display inline-block
+				padding-right 30px
+				background url('../img/23484f2b9267f55620f8ddf494ad3883-23+24.png') right center no-repeat
+
+	.brand-list
+		padding-top 10px
+
+		a
+			width 75px
+			height 50px
+			background url('') center center no-repeat
+
+	.tel
+		padding 10px 0
+		padding-left 50px
+		height 50px
+		background url('../img/2f134dc933352d8055b7139ca35d2648-49+49.png') left center no-repeat
+		color #ff42ae
+		letter-spacing 3px
+		font-size 26px
+		line-height 50px
+
+	.option
+		width 250px
+
+		a
+			width 33.33%
+			color #5b5b5b
+			text-align center
+			font-size 12px
+			line-height 22px
+
+			span
+				display block
+
+			.pic
+				width 100%
+				height 50px
+				background url('') center center no-repeat
+
+	.pt9
+		padding-top 13px
+
+	.menu
+		background #e70404
+
+		.all-product
+			position relative
+			margin-top -13px
+			margin-left -15px
+			width 270px
+			height 63px
+			background url('../img/3f1e0b618cd078876d4fc0ebd920f607-270+63.png') center top no-repeat
+			color #ffffff
+			text-align center
+			font-size 20px
+			line-height 50px
+
+			&:after
+				position absolute
+				right 15px
+				bottom 0
+				left 15px
+				height 12px
+				background #fafafa
+				content ''
+
+		.nav
+			margin-left 30px
+
+			a
+				padding 0 30px
+				height 50px
+				color #000000
+				line-height 50px
+				transition 0.3s
+
+				&:hover, &.active
+					background #9e0a0a
+					color #ffffff
+
+.main-first-block
+	.menu
+		margin-top -12px
+		width 240px
+		background #ffffff
+
+		.item
+			position relative
+			border-bottom 2px solid #efefef
+
+			&:hover
+				.layout
+					display block
+
+			.target
+				display block
+				padding-left 35px
+				height 44px
+				background url('../img/8c09cd617f302cd3e5c46c0a1fb4f6e8-20+20.png') 5px center no-repeat, #f6f5f5 url('../img/f0f9ad654d24d16dc14b84632ac03fbe-9+14.png') right 10px center no-repeat
+				color #323232
+				font-size 18px
+				line-height 44px
+
+				&:hover
+					background-color #ffffff
+					color #9e0a0a
+
+			.layout
+				position absolute
+				top 0
+				left 100%
+				z-index 10
+				display none
+				width 470px
+				border-top 1px solid #efefef
+				border-right 1px solid #efefef
+				border-bottom 1px solid #efefef
+				background #ffffff
+
+				h3
+					padding 20px 30px 20px
+					color #393939
+					font-size 16px
+					line-height 26px
+
+				.link-group
+					overflow hidden
+					padding 0 20px
+					color #383838
+					font-size 12px
+					line-height 22px
+
+					a
+						float left
+						margin 10px
+						transition 0.3s
+
+						&:hover
+							color #9e0a0a
+
+				.pic
+					img
+						display block
+						width 100%
+
+	.swiper
+		padding 10px 0 0 10px
+		width 600px
+
+		a, img
+			display block
+			width 100%
+
+		.swiper-pagination
+			span
+				background #963f3f
+				opacity 1
+
+			.swiper-pagination-bullet-active
+				background #f7c4c4
+
+	.tabs-wrap
+		overflow hidden
+		padding-top 10px
+		width 325px
+		border-radius 10px 10px 0 0
+
+		.tabs-control, .tabs-container
+			background #ffffff
+
+		.tabs-control
+			color #000000
+			font-size 16px
+			line-height 46px
+
+			a
+				box-sizing border-box
+				width 33.33%
+				border-right 1px solid transparent
+				border-bottom 1px solid #ededed
+				border-left 1px solid transparent
+				text-align center
+				transition 0.3s
+
+				&:hover, &.active
+					border-right-color #cfcfcf
+					border-bottom-color transparent
+					border-left-color #cfcfcf
+					border-radius 10px 10px 0 0
+
+		.tabs-container
+			border 1px solid #ededed
+			border-top none
+
+			.search
+				padding 10px 20px 7px
+
+				input
+					box-sizing border-box
+					padding-left 14px
+					width 80%
+					width calc(100% - 60px)
+					border 1px solid #a0a0a0
+					background #eaeaea
+					font-size 12px
+					line-height 28px
+
+				a
+					box-sizing border-box
+					width 20px
+					width 60px
+					height 30px
+					background #e70704 url('../img/26ade27d45967ff4e65475e4d3cb103d-20+20.png') center center no-repeat
+
+			.list
+				padding 0 10px 20px
+
+				a
+					display block
+					overflow hidden
+					width 100%
+					border-bottom 1px solid #d7d7d7
+					color #3e3d3d
+					text-overflow ellipsis
+					white-space nowrap
+					font-size 16px
+					line-height 28px
+
+					&+a
+						margin-top 20px
+
+.main-hot-block
+	.tabs-wrap
+		.tabs-control
+			padding 10px 10px 0
+			color #000000
+			font-size 20px
+			line-height 30px
+
+			a
+				padding 5px 10px
+				transition 0.3s
+
+				&:hover, &.active
+					background #ffffff
+					color #c60a0a
+
+	.tabs-container
+		position relative
+		height 350px
+		background #ffffff
+		text-align center
+
+		.item
+			position absolute
+			right 0
+			left 0
+			z-index -1
+			visibility hidden
+			padding 0 30px
+			height 340px
+
+			&.active
+				z-index 1
+				visibility visible
+
+			.swiper-button-prev
+				left -10px
+				margin-top -19px
+				width 26px
+				height 38px
+				background url('../img/59adea8f174c8110f3130490f97c345a-26+38.png') left center no-repeat
+
+			.swiper-button-next
+				right -10px
+				margin-top -19px
+				width 26px
+				height 38px
+				background url('../img/0dde4b66010ddf1953e43e52ace0182a-26+38.png') left center no-repeat
+
+		.pic
+			border 1px solid #b5b5b5
+
+			img
+				display block
+				width 100%
+
+		.name
+			color #585858
+			font-size 16px
+			line-height 26px
+
+		.cost
+			color #c60a0a
+			font-size 20px
+			line-height 30px
+
+.floor-n-left
+	width 955px
+
+	.n-floor
+		padding-top 15px
+
+		.title, .content
+			background #ffffff
+
+		.title
+			border-top 4px solid #c60a0a
+
+			.f
+				padding-right 10px
+				color #c60a0a
+				font-size 20px
+				line-height 50px
+
+			h3
+				color #252525
+				font-size 20px
+				line-height 50px
+
+			.small
+				color #474646
+				font-size 16px
+				line-height 0
+
+		.content
+			padding-bottom 30px
+			background #ffffff
+
+			.link-group
+				margin-right 10px
+				padding 10px 0 0
+				height 50%
+				height 235px
+				background #c60a0a
+
+				a
+					width 50%
+					color #fefefe
+					text-align center
+					font-size 14px
+					line-height 36px
+
+					span
+						padding-right 10px
+						background url('../img/184cd6c70e7885455f67c66260560484-8+7.png') right center no-repeat
+
+			.layout-pic
+				padding-right 10px
+
+				img
+					display block
+					width 100%
+
+			.pic
+				img
+					display block
+					margin 0 auto
+					border 1px solid #e0e0e0
+
+			.name, .cost
+				text-align center
+				font-size 14px
+				line-height 24px
+
+			.name
+				color #2d2d2d
+
+			.cost
+				color #c60a0a
+
+	.nav
+		padding 30px 0 10px
+		color #323232
+		font-size 14px
+		line-height 24px
+
+		&.p10-0-0
+			padding 10px 0 0
+
+	.hot
+		margin-bottom 15px
+		background #ffffff
+
+		.title
+			padding 28px 0 28px 20px
+			color #000000
+			font-size 20px
+			line-height 1
+
+		.list
+			padding-right 15px
+			padding-bottom 24px
+			padding-left 15px
+
+			&+.list
+				padding-top 40px
+				border-top 1px solid #f4f4f4
+
+			.item
+				float left
+				width 25%
+				text-align center
+
+				.pic
+					img
+						display block
+						margin 0 auto
+						border 1px solid #b5b5b5
+
+				.name
+					color #585858
+					font-size 16px
+					line-height 26px
+
+				.cost
+					color #c60a0a
+					font-size 20px
+					line-height 30px
+
+	.product-custom
+		margin-bottom 15px
+		padding 20px 40px 50px
+		background #ffffff
+
+		.item
+			border-bottom 1px dashed #c60a0a
+
+		h3
+			padding 15px 0 5px
+			color #2d2d2d
+			font-size 14px
+			line-height 24px
+
+		.bg
+			height 16px
+			background url('') left center no-repeat
+
+		.btn-i-want
+			margin 16px 0 20px
+
+			a
+				width 89px
+				height 29px
+				border 1px solid #ccc1c1
+				border-radius 5px
+				background #c60a0a
+				color #ffffff
+				text-align center
+				font-size 12px
+				line-height 27px
+
+.page-custom-block
+	margin-bottom 15px
+	padding 40px 20px 20px
+	background #ffffff
+
+	h2
+		border-bottom 4px solid #efeded
+		color #9e0a0a
+		text-align center
+		font-size 18px
+		line-height 40px
+
+		span
+			position relative
+			display inline-block
+
+			&:after
+				position absolute
+				right -10px
+				bottom -4px
+				left -10px
+				border-top 4px solid #9e0a0a
+				content ''
+
+	.public-container
+		position relative
+		margin-top 40px
+		border 1px solid #cccccc
+		border-radius 5px
+
+		h3
+			position absolute
+			top -12px
+			left 50%
+			margin-left -4em
+			width 8em
+			background #ffffff
+			color #9e0a0a
+			text-align center
+			font-size 14px
+			line-height 24px
+
+	.input, .span, .w50, .w100, .row, .tel
+		float left
+
+	.input
+		box-sizing border-box
+		padding 0 10px
+		height 30px
+		outline none
+		border 1px solid #cccccc
+		background none
+		line-height 28px
+
+	.w120h38
+		width 120px
+		height 38px
+		line-height 38px
+
+	.w50
+		box-sizing border-box
+		width 50%
+
+		&+.w50
+			.span
+				padding-left 20px
+				&.p0-10
+					padding 0 10px
+
+	.span
+		padding-left 15px
+		color #343434
+		font-size 14px
+		line-height 30px
+
+		&.red
+			position relative
+
+			&:before
+				position absolute
+				left 0
+				width 15px
+				color #9e0a0a
+				content '*'
+				text-align center
+				font-size 14px
+				line-height 30px
+		
+	.public-location
+		float left
+		.input+.input
+			margin-left 10px
+	.set-default
+		float left
+		label+label
+			margin-left 20px
+		.span
+			display inline-block
+			float none
+			padding-left 0!important
+		input
+			vertical-align middle
+			outline none
+	.p0-10
+		padding 0 10px
+
+	.p30-15
+		padding 30px 15px
+
+	.row
+		width 100%
+
+		&+.row
+			padding-top 12px
+
+	.w350
+		width 350px
+
+	.w795
+		width 795px
+
+	.h60
+		height 60px
+
+	.w65
+		width 65px
+
+	.w260
+		width 258px
+
+	.composition-info
+		.btn-red
+			display block
+			margin 10px 0 10px 35px
+			width 110px
+			height 34px
+			border-radius 5px
+			background #c60a0a
+			color #ffffff
+			text-align center
+			font-size 14px
+			line-height 34px
+
+		.btn-del
+			color #0039b9
+			font-size 14px
+
+		table
+			width 100%
+
+			thead
+				tr, th
+					background #eaeaea
+					color #343434
+					font-weight normal
+					font-size 14px
+					line-height 40px
+
+			th+th, td+td
+				border-left 1px solid #d3d3d3
+
+			td
+				text-align center
+
+				.input
+					float none
+
+			tbody
+				tr
+					border-bottom 1px solid #d3d3d3
+
+				td
+					padding 5px 0
+
+	.bd
+		margin-top 20px
+		padding-top 25px
+		border-top 1px dashed #9e0a0a
+
+		.submit
+			display block
+			margin 0 auto
+			width 110px
+			height 34px
+			border-radius 5px
+			background #c60a0a
+			color #ffffff
+			text-align center
+			font-size 14px
+			line-height 34px
+
+	.tips
+		margin-top -10px
+		color #2c2b2b
+		font-size 12px
+		line-height 20px
+
+		span
+			color #c60a0a
+
+.floor-n-right
+	margin-bottom 15px
+	padding-top 15px
+	width 235px
+	&.w100
+		width 100%
+		.w34
+			width 34%
+			box-sizing border-box
+		.w20
+			width 20%
+			margin-left 2%
+			box-sizing border-box
+		.vip .list
+			padding-top 3px
+			font-size 0
+			text-align center
+		.vip .list li
+			width 20%
+			float none
+			display inline-block
+	.child-menu
+		padding-bottom 12px
+
+		&.about-menu
+			.item
+				a.bgfff
+					background #c60a0a
+					color #ffffff
+
+				a
+					&:hover, &.active
+						background #cbcaca
+						color #c60a0a
+
+						&:after
+							border-left-color #cbcaca
+
+		.item
+			background #ececec
+
+			&+.item
+				border-top 1px solid #fff
+
+			a
+				position relative
+				display block
+				height 50px
+				color #2d2d2d
+				text-align center
+				font-size 16px
+				line-height 50px
+				transition 0.3s
+
+				&:after
+					position absolute
+					top 50%
+					left 100%
+					margin-top -5px
+					border 5px solid transparent
+					content ''
+					transition 0.3s
+
+				&:hover, &.active
+					background #9e0a0a
+					color #ffffff
+
+					&:after
+						border-left-color #9e0a0a
+
+	.vip
+		padding 15px 0 0 5px
+		border-top 1px solid #ededed
+		background #ffffff
+
+		h3
+			padding-bottom 5px
+			color #414141
+			text-align center
+			font-size 18px
+			line-height 28px
+
+		.list
+			li
+				padding-bottom 8px
+				width 33.33%
+				color #414141
+				text-align center
+				font-size 12px
+				line-height 28px
+
+	.login-register
+		padding 7px 0 9px
+
+		a
+			width 110px
+			height 45px
+			border-radius 5px
+			background #c60a0a
+			color #ffffff
+			text-align center
+			font-size 18px
+			line-height 45px
+
+	.title-pic-module
+		margin-bottom 16px
+		border-top 1px solid #ededed
+
+		h3
+			background #ffffff
+			color #414141
+			text-align center
+			font-size 18px
+			line-height 38px
+
+		.pic
+			a, img
+				display block
+				width 100%
+
+	.news-list
+		padding 0 10px 20px
+		background #ffffff
+
+		a
+			display block
+			overflow hidden
+			padding-top 20px
+			border-bottom 1px solid #d7d7d7
+			color #3e3d3d
+			text-overflow ellipsis
+			white-space nowrap
+			font-size 12px
+			line-height 30px
+
+	.mb0
+		margin-bottom 0
+
+.footer-tabs-wrap
+	margin-bottom 12px
+	padding-top 10px
+	&.style-two
+		.tabs-control
+			a
+				padding-top 5px
+				padding-bottom 5px	
+				background #e7e7e7
+				color #a1a1a1
+				&+a
+					margin-left 10px
+				&:hover, &.active
+					color #3d3d3d
+	.tabs-control
+		padding 0 35px
+
+		a
+			padding 10px 12px 0
+			border-radius 5px 5px 0 0
+			color #2d2b2b
+			font-size 20px
+			line-height 30px
+			transition 0.3s
+
+			&:hover, &.active
+				background #ffffff
+				color #c60a0a
+
+	.tabs-container
+		padding 0 47px 10px
+		background #ffffff
+		color #454545
+		&.p10
+			padding 10px
+
+		h3
+			padding-top 10px
+			font-size 16px
+			line-height 26px
+
+		p
+			font-size 14px
+			line-height 36px
+
+.footer
+	.copy-right
+		padding 30px 0
+		background #9e0a0a
+		color #ffffff
+		text-align center
+		font-size 14px
+		line-height 24px
+
+		a
+			padding 0 5px
+
+	.menu
+		padding 30px 0
+		background #ffffff
+		text-align center
+		font-size 0
+
+		.item
+			display inline-block
+			padding 16px 0 16px 60px
+			width 120px
+			vertical-align middle
+			text-align left
+
+			h3
+				color #2b2b2b
+				font-size 14px
+				line-height 28px
+
+			a
+				color #5f5f5f
+				font-size 12px
+				line-height 22px
+
+			&+.item
+				border-left 1px solid #f1f1f1
+
+.help-center
+	.type
+		margin 15px 0
+		padding 30px 50px
+		background #ffffff
+
+		.btn-all
+			display block
+			width 110px
+			height 40px
+			background #9e0a0a
+			color #ffffff
+			text-align center
+			font-size 16px
+			line-height 40px
+
+		.w610
+			width 610px
+			text-align justify
+			text-align-last justify
+			line-height 0
+
+			&:after
+				display inline-block
+				overflow hidden
+				width 100%
+				height 0
+				content ''
+				vertical-align middle
+				line-height 0
+
+			a
+				display inline-block
+				color #2d2d2d
+				font-size 16px
+				line-height 26px
+
+			.bdt
+				margin-top 10px
+				padding-top 10px
+				border-top 1px solid #eeeeee
+
+	.search-box
+		margin-top -17px
+		padding-bottom 15px
+		height 46px
+
+		input
+			padding-left 28px
+			width 450px
+			height 44px
+			outline none
+			border 1px solid #ebebeb
+			border-right none
+			border-radius 23px 0 0 23px
+			background #ffffff
+			color #c0c0c0
+			font-size 16px
+
+		a
+			width 140px
+			height 46px
+			background #c60a0a
+			color #ffffff
+			text-align center
+			font-size 20px
+			line-height 46px
+
+	.content
+		padding 10px 40px 0
+		background #ffffff
+
+		.item
+			padding-bottom 24px
+			border-bottom 1px dashed #c60a0a
+
+		h3, .date
+			padding 26px 0 9px
+			color #2d2d2d
+			font-size 14px
+			line-height 24px
+
+		.date
+			color #747474
+
+		p
+			overflow hidden
+			box-sizing border-box
+			padding-left 10px
+			width 100%
+			background #ebebeb
+			color #2d2d2d
+			text-overflow ellipsis
+			white-space nowrap
+			font-size 14px
+			line-height 36px
+
+.company-base-info
+	padding 35px 40px 40px
+	background #ffffff
+
+	h3
+		position relative
+		margin-bottom 30px
+		color #2d2d2d
+		text-align center
+		font-size 22px
+		line-height 33px
+
+		span
+			position relative
+			z-index 1
+			display inline-block
+			padding 0 10px 0 13px
+			background #ffffff
+			letter-spacing 3px
+
+		&:after
+			position absolute
+			top 50%
+			right 0
+			left 0
+			border-bottom 1px dashed #c60a0a
+			content ''
+			letter-spacing 3px
+
+	p
+		color #2d2d2d
+		text-indent 2em
+		font-size 14px
+		line-height 50px
+
+.page-control
+	padding 50px 0 40px
+	background #ffffff
+	text-align center
+	font-size 0
+
+	&.bgn
+		background none
+
+	&.p40-0
+		padding 40px 0
+
+	&.mb15
+		margin-bottom 15px
+
+	a
+		display inline-block
+		box-sizing border-box
+		margin 0 5px
+		min-width 50px
+		height 40px
+		border 1px solid #cfcfcf
+		color #666666
+		text-align center
+		text-align center
+		font-size 14px
+		line-height 38px
+
+		&.hover
+			border-radius 5px
+			transition 0.3s
+
+			&:hover
+				background #f3f4f5
+
+		&.bdn
+			border none
+
+		span
+			color #9e0a0a
+
+.product-center
+	&.pt15
+		padding-top 15px
+	.product-center-type
+		position relative
+		border 1px solid #cfcfcf
+		background #ffffff
+
+		&.two-child
+			&:after
+				top 97%
+
+		&:after
+			position absolute
+			top 95%
+			left 110px
+			width 20px
+			height 20px
+			border-bottom 1px solid #cfcfcf
+			border-left 1px solid #cfcfcf
+			background #ffffff
+			content ''
+			transform rotateZ(-45deg)
+
+		h3
+			margin 0 20px
+			padding 27px 0 26px
+			color #2d2d2d
+			font-size 18px
+			line-height 1
+
+		.progress-bar
+			&.small
+				span
+					&:after
+						height 5px
+
+			span
+				position relative
+				display inline-block
+
+				&:after
+					position absolute
+					right -50px
+					bottom -15px
+					left 0
+					height 8px
+					background #eff0f0 linear-gradient(to right, #9e0a0a, #9e0a0a) left center / 20% 100% no-repeat
+					content ''
+
+		.bdt
+			border-top 1px dashed #9e0a0a
+
+		.w190
+			width 190px
+
+		.w900
+			width 970px
+			color #2d2d2d
+			font-size 16px
+			line-height 36px
+
+			a
+				margin-right 30px
+				margin-bottom 20px
+
+				&.more
+					span
+						padding-right 15px
+						background url('../img/403c41a1e2154889f90ca2fb5311a9df-9+10.png') right center no-repeat
+						color #9e0a0a
+						font-size 10px
+
+		.all
+			display block
+			width 70px
+			height 36px
+			background #9e0a0a
+			color #ffffff
+			text-align center
+			line-height 36px
+
+			&.vh
+				visibility hidden
+
+	.product-center-content
+		margin-top 40px
+		padding 10px
+		background #ffffff
+
+		&.mt0
+			margin-top 0
+
+		&.bgn
+			background none
+
+		&.p0
+			padding 0
+
+		.checkbox
+			outline none
+			border 1px solid #a2a2a2
+			vertical-align middle
+
+		table
+			width 100%
+
+			&.scrol-info
+				thead tr, thead th, tr
+					background #f1f1f1
+
+				tr, th, td
+					border none
+
+				tr
+					border-bottom 5px solid #fff
+
+				.bdl
+					border-left 1px solid #d9d9d9
+
+			&.order-info
+				border 1px solid #cacaca
+
+				thead tr:first-child, thead tr:first-child th
+					background #e4e4e4
+
+				tr, th, td
+					border none
+
+				tr
+					border-bottom 1px solid #cacaca
+
+			tr, th, td
+				box-sizing border-box
+				height 40px
+				border 1px solid #cccccc
+				text-align center
+				font-weight normal
+				font-size 12px
+				line-height 22px
+
+			th, td
+				padding 5px 10px
+
+			thead
+				tr, th
+					background #f3f4f5
+					color #2d2d2d
+
+		.number
+			&>*
+				display inline-block
+				color #000000
+				vertical-align top
+				font-size 12px
+
+			.value
+				width 30px
+
+			a
+				width 23px
+				height 23px
+				border 1px solid #cecece
+				background #f3f4f5
+				text-align center
+				line-height 23px
+
+		.add-card
+			display block
+			margin 0 auto
+			width 90px
+			height 26px
+			border 1px solid #ccc1c1
+			border-radius 5px
+			background #c60a0a
+			color #ffffff
+			font-size 12px
+			line-height 26px
+
+		.db
+			display block
+
+		.c9b9b9b
+			color #9b9b9b
+
+		.c9e0a0a
+			color #9e0a0a
+
+		.c0031ac
+			color #0031ac
+
+		.bd
+			border 1px solid #b5b5b5
+
+		.p0-10
+			padding 0 5px
+
+		.tal
+			text-align left
+
+		.bdl
+			border-left 1px solid #d9d9d9
+
+	.my-evaluation
+		position relative
+		color #3d3d3d
+		font-size 22px
+
+		&:before
+			position absolute
+			top 50%
+			right 0
+			left 0
+			border-top 1px dashed #ca2e2e
+			content ''
+
+		span
+			position relative
+			z-index 1
+			margin-left 90px
+			padding 0 20px
+			height 60px
+			background #fafafa
+			line-height 60px
+
+	.shop-card-option
+		padding-bottom 15px
+
+		.w
+			box-sizing border-box
+			padding 0 10px 10px
+			background #ffffff
+
+			.clear
+				padding 15px 0
+				border 1px solid #cdcdcd
+				color #606060
+				font-size 18px
+				line-height 36px
+
+				&>*
+					margin 0 15px
+
+				span
+					color #8d8d8d
+
+					&.c9e0a0a
+						color #9e0a0a
+
+				a
+					padding 0 10px
+					height 36px
+					border-radius 3px
+					background #e8242e
+					color #ffffff
+					line-height 36px
+
+.main-score-gift
+	background #fff url('../img/36d85685f782f4e91f6e9dedf9c2c7a8-1200+572.jpg') center top no-repeat
+
+	.list
+		margin 0 auto
+		padding-top 430px
+		max-width 810px
+
+		.clear
+			margin-left -2%
+
+		.item
+			margin-bottom 20px
+			margin-left 2%
+			width 23%
+
+			.pic
+				margin-bottom 10px
+				border 1px solid #d5d5d5
+
+				img
+					display block
+					width 100%
+
+			p
+				margin 0 auto
+				width 90%
+				color #2a2a2a
+				font-size 14px
+				line-height 24px
+
+			a
+				display block
+				margin 10px auto 0
+				width 80px
+				height 24px
+				border-radius 12px
+				background #e7213c
+				color #ffffff
+				text-align center
+				font-size 14px
+				line-height 24px
+
+.main-vip-center
+	padding-bottom 10px
+
+	.vip-left
+		padding-top 30px
+		width 285px
+		background #ffffff
+
+		.pic
+			margin 0 auto
+			width 120px
+			height 120px
+			border 10px solid #fff
+			border-radius 50%
+			box-shadow -3px 0 3px #ccc
+
+		.name
+			padding-bottom 20px
+			text-align center
+
+			span
+				display inline-block
+				padding 10px 20px 10px 3px
+				background url('../img/17f8227cc0cbea5e7e5e784852f9a8aa-18+25.png') right center no-repeat
+				color #323232
+				letter-spacing 3px
+				font-size 16px
+				line-height 30px
+
+		.menu
+			a
+				position relative
+				display block
+				border-top 10px solid #fafafa
+				font-size 14px
+				color #2a2a2a
+				line-height 60px
+				text-align center
+				letter-spacing 3px
+				padding-left 3px
+				box-sizing border-box
+				transition 0.3
+				&:after
+					content ''
+					position absolute
+					border 10px solid transparent
+					right -20px
+					top 50%
+					margin-top -10px
+					transition 0.3
+				&:hover
+				&.active
+					color #9e0a0a
+					background #e9e9e9
+					&:after
+						border-left-color #e9e9e9
+
+
+	.vip-right
+		width 900px
+		.welcome
+			padding 0 25px
+			background #ffffff
+			&.pt30
+				padding-top 40px
+			&.pb20
+				padding-bottom 20px
+			p
+				font-size 14px
+				line-height 24px
+				color #6a6a6a
+				padding-bottom 10px
+			.item
+				padding 20px 0
+				width 25%
+				box-sizing border-box
+				text-align center
+				.title
+					font-size 14px
+					color #323232
+					line-height 24px
+				.value
+					font-size 26px
+					color #9e0a0a
+					line-height 37px
+					&.c8a8a8a
+						color #8a8a8a
+				&+.item
+					border-left 1px solid #eaeaea
+.sale-vip-center
+	.list
+		margin-left -3%
+		.item
+			margin-left 3%
+			margin-bottom 20px
+			padding 20px 0
+			width 30.33%
+			font-size 1px
+			color #ffffff
+			line-height 24px
+			background url('../img/0b2687087450926456d07ee289a1ecb3-269+131.png') center center no-repeat
+			&.used
+				background-image url('../img/d2d750e5cb7399c2d0dc859cef659014-269+131.png')
+				a
+					color #565656
+					background #a9a9a9
+				.cfff33f
+					color #a9a9a9
+			.fwb
+				font-weight bold
+			.w50
+				width 50%
+			.tar
+				text-align right
+			.w90
+				width 80%
+				margin 0 auto
+			a
+				display block
+				text-align center
+				line-height 28px
+				width 95px
+				height 28px
+				border-radius 14px
+				color #fff33f
+				font-weight bold
+				background #d02029
+			.cfff33f
+				color #fff33f
+			.fz82
+				font-size 82px
+				line-height 1
+			.fz24
+				font-size 24px
+
+.vip-tax-rate
+	margin-top 15px
+	min-height 700px
+	padding 30px 100px 0
+	background #ffffff
+	.page-custom-block
+		background none
+	h3
+		padding-top 110px
+		padding-bottom 10px
+		font-size 20px
+		line-height 30px
+		color #000000
+	table
+		width 500px
+		color #000000
+		tr
+		td
+			padding 5px
+			border 1px solid #000
+		input
+			border none
+			outline none
+			width 100%
+		.red
+			color #ff0000
+	a.submit
+		margin 30px 0 0  170px
+		display block
+		width 135px
+		height 50px
+		padding-left 3px
+		box-sizing border-box
+		letter-spacing 3px
+		color #ffffff
+		font-size 14px
+		text-align center
+		line-height 50px
+		border-radius 25px
+		background #9e0a0a
+
+.add-address
+	position fixed 
+	left 50%
+	top 50%
+	width 520px
+	margin-left -260px
+	margin-top -300px
+	display none
+	.page-custom-block
+		padding 20px 0 0 0
+		.pr15
+			padding-right 15px
+		.w140
+			width 140px
+			min-height 1px
+		.w240
+			width 240px
+		.tar
+			text-align right
+		.bd
+			border-top none
+			margin 0
+			padding-bottom 40px
+			float left
+
+.vip-user-info
+	min-height 674px
+	.page-custom-block
+		margin 0
+		.w110
+			width 80px
+			padding-right 10px
+			text-align right
+		.w270
+			width 270px
+		.w690
+			width 695px
+		.w230
+			width 230px
+		.c0034a9
+			color #0034a9
+		.row+.row
+			padding-top 25px
+.black_overlay
+	position fixed
+	top 0
+	left 0
+	z-index 9999
+	display none
+	width 100%
+	height 100%
+	background-color #000
+	opacity 0.5
+
+#login-dialog
+	position fixed
+	top 50%
+	left 50%
+	z-index 10002
+	display none
+	margin-top -230px
+	margin-left -190px
+	width 380px
+	height 430px
+
+#login-dialog .login
+	position relative
+	margin-top 10px
+	width 340px
+	height 410px
+	border 1px solid #9f9f9f
+	background #fff
+
+#login-dialog .login .close
+	position absolute
+	top 3px
+	right 10px
+	cursor pointer
+
+#login-dialog .login .logo
+	position absolute
+	top 25px
+	left -15px
+
+#login-dialog .login .ul_login
+	position absolute
+	top 92px
+	left 20px
+
+#login-dialog .login .ul_login li
+	display inline-block
+	padding 3px 5px
+	color #606060
+	font-weight bold
+	font-size 15px
+	cursor pointer
+
+#login-dialog .login form
+	position absolute
+	top 140px
+	left 20px
+
+#login-dialog .login form .text
+	float left
+	margin-bottom 22px
+	width 260px
+	height 36px
+	font-size 15px
+	line-height 36px
+
+#login-dialog .login form .submit
+	float left
+	margin-top 30px
+	width 300px
+	height 47px
+	outline none
+	border-radius 5px
+	background #c60a0a
+	color #fff
+	font-size 16px
+
+#login-dialog .login form .submit:hover
+	opacity 0.7
+
+#login-dialog .login .ul_register
+	position absolute
+	top 350px
+	right 20px
+
+#login-dialog .login .ul_register li
+	display inline-block
+	padding 3px 5px
+	font-weight bold
+	font-size 15px
+	cursor pointer
+
+#login-dialog .login .ul_register li a
+	color red
+	font-weight normal
+	font-size 14px
+
+.mine_product
+	position fixed
+	top 50%
+	right 0
+	z-index 1004
+	margin-top -155px
+	width 40px
+	height 334px
+	background #444851
+
+.mine_product ul
+	width 100%
+	color #fff
+
+.mine_product ul li
+	position relative
+	width 100%
+	text-align center
+	font-size 22px
+
+.mine_product ul li:hover
+	background #dd2727
+
+.mine_product ul .personal
+	display block
+	height 60px
+	line-height 30px
+
+.mine_product ul .personal .login_box
+	position absolute
+	top 0
+	left -287px
+	z-index 999
+	display none
+	padding 10px
+	width 267px
+	height 185px
+	border-radius 5px 0 0 5px
+	background #fff
+	box-shadow 0 0 5px rgba(0, 0, 0, 0.4)
+
+.mine_product ul .personal .login_box .login_box_i
+	overflow hidden
+	width 267px
+	height 120px
+	border-bottom 1px solid #d8d8d8
+
+.mine_product ul .personal .login_box .login_box_i .head
+	float left
+	overflow hidden
+	width 100px
+	height 100px
+	border-radius 50%
+
+.mine_product ul .personal .login_box .login_box_i .head img
+	width 100%
+	height 100%
+
+.mine_product ul .personal .login_box .login_box_i ul
+	float left
+	padding-top 30px
+	width 130px
+	color #333
+	line-height 24px
+
+.mine_product ul .personal .login_box .login_box_i ul li
+	overflow hidden
+	padding-left 20px
+	height 24px
+	text-align left
+	white-space nowrap
+	font-size 12px
+	line-height 24px
+
+.mine_product ul .personal .login_box .login_box_i ul li:hover
+	background #fff
+
+.mine_product ul .personal .login_box .btn_box
+	clear both
+	overflow hidden
+	padding-top 15px
+	width 267px
+	height 79px
+
+.mine_product ul .personal .login_box .btn_box a
+	float left
+	width 94px
+	height 30px
+	border 1px solid
+	border-color #e9e9e9
+	background-position 0 -408px
+	background-repeat repeat-x
+	color #333
+	text-align center
+	text-decoration none
+	font-size 12px
+	line-height 30px
+
+.mine_product ul .personal .login_box .btn_box a:hover
+	border 1px solid #dd2727
+
+.mine_product ul .personal .login_box .btn_box .al
+	margin-left 20px
+
+.mine_product ul .personal .login_box .btn_box .order
+	margin-left 20px
+
+.mine_product ul .personal:hover .login_box
+	display block
+
+.mine_product ul .cars
+	padding-top 20px
+	padding-bottom 20px
+	border-top 2px solid #31343b
+	border-bottom 2px solid #31343b
+
+.mine_product ul .cars em
+	display block
+	font-size 14px
+	font-family 'å¾®è½¯é›…é»‘'
+	line-height 20px
+
+.mine_product ul .cars .num
+	margin 0 auto
+	width 30px
+	height 30px
+	border-radius 50%
+	background #dd2727
+	text-align center
+	font-weight bold
+	font-size 12px
+	line-height 30px
+
+.mine_product ul .like
+	padding-top 8px
+	padding-bottom 8px
+
+.mine_product ul .like:hover .my_like
+	left -92px
+	display block
+
+.mine_product ul .like .my_like
+	position absolute
+	top 0
+	left -121px
+	z-index 2
+	display none
+	width 92px
+	height 40px
+	background #444851
+	color #d8d8d8
+	text-align center
+	font-size 12px
+	line-height 38px
+
+.mine_product ul .erweima
+	padding-top 24px
+	padding-bottom 24px
+
+.mine_product ul .erweima:hover .ewm
+	display block
+
+.mine_product ul .erweima .ewm
+	position absolute
+	top -100px
+	left -168px
+	z-index 3
+	display none
+	padding 10px
+	width 148px
+	height 148px
+	border-radius 5px 0 0 5px
+	background #fff
+	box-shadow 0 0 5px rgba(0, 0, 0, 0.4)
